@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainlogo{
+  margin: 32px;
+  color: blue;
+  background: black;
+  border-radius: 32px;
+  border-style: solid;
+  padding: 14px 140px;
+  width: fit-content;
+  block-size: fit-content;
+}
+
+h1{
+  color: orangered;
+  font-size: 50px;
+}
+
+body {
+      padding-bottom: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url("space.png");
+    }
+
+div{
+
+  color: blue;
+  background:#ccc;
+  border-radius: 32px;
+  border-style: solid;
+  padding: 14px 32px;
+  width: fit-content;
+  block-size: fit-content;
+}
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #008FE7;
+}
+
+.topnav a {
+  border-radius: 8px;
+  float: left;
+  background-color: #EB1919;
+  display: block;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  padding: 14px 80px;
+  margin: 16px;
+  text-decoration: none;
+}
+.topnav spacer {
+  float: left;
+  background-color: #008FE7;
+  display: block;
+  font-weight: bolder;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.content {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lavender;
+  color: black;
+  text-align: center;
+  max-width:50%
+  height: 2.5rem;
+}
+
+table {
+border: 1px solid black;
+border-collapse: collapse;
+background: #e8e8e8;
+}
+th {
+border: 1px solid black;
+padding: 6px;
+font-weight: bold;
+background: #ccc;
+}
+td {
+border: 1px solid black;
+padding: 6px;
+}
+.num_posts_col { text-align: center; }
